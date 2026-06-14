@@ -11,6 +11,7 @@ These projects demonstrate hands-on experience in data cleaning, preprocessing, 
 | S.No. | Project Name | Level | Core Tech Stack | Description | Folder Link |
 | :---: | :--- | :---: | :--- | :--- | :--- |
 | **01** | **Retail Sales Exploratory Data Analysis** | **Level 1** | Python, Pandas, Matplotlib, Seaborn, Jupyter | Cleaning, statistics, monthly trend patterns, customer age/gender analysis, and correlation profiling of retail transactions. | [Project_1_Retail_Sales_EDA](./Project_1_Retail_Sales_EDA) |
+| **02** | **Customer Segmentation Analysis** | **Level 1** | Python, Pandas, Scikit-Learn, Matplotlib, Seaborn, Jupyter | Unsupervised machine learning using K-Means Clustering and the Elbow Method to segment and profile shoppers based on earnings and spending behavior. | [Project_2_Customer_Segmentation](./Project_2_Customer_Segmentation) |
 
 ---
 
@@ -53,7 +54,7 @@ source venv/bin/activate
 
 ### 4. Install Dependencies
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
 
 ### 5. Launch Project Notebooks
@@ -84,6 +85,22 @@ OIBSIP/
 │   │   ├── category_sales.png
 │   │   ├── top_products.png
 │   │   └── heatmap.png
+│   └── README.md                    # Project readme file
+│
+├── Project_2_Customer_Segmentation/
+│   ├── Dataset/
+│   │   ├── Mall_Customers.csv       # Mall customers dataset
+│   │   └── marketing-analytics-...  # Unused reference notebook
+│   ├── Notebook/
+│   │   └── Customer_Segmentation.ipynb # Interactive clustering notebook
+│   ├── Report/
+│   │   └── Customer_Segmentation_Report.md # Business segmentation report
+│   ├── Visualizations/              # High-resolution PNG charts
+│   │   ├── customer_distribution.png
+│   │   ├── age_distribution.png
+│   │   ├── annual_income_vs_spending_score.png
+│   │   ├── elbow_method.png
+│   │   └── customer_segments.png
 │   └── README.md                    # Project readme file
 │
 └── README.md                        # Root readme (This index hub)
