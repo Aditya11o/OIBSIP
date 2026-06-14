@@ -12,6 +12,7 @@ These projects demonstrate hands-on experience in data cleaning, preprocessing, 
 | :---: | :--- | :---: | :--- | :--- | :--- |
 | **01** | **Retail Sales Exploratory Data Analysis** | **Level 1** | Python, Pandas, Matplotlib, Seaborn, Jupyter | Cleaning, statistics, monthly trend patterns, customer age/gender analysis, and correlation profiling of retail transactions. | [Project_1_Retail_Sales_EDA](./Project_1_Retail_Sales_EDA) |
 | **02** | **Customer Segmentation Analysis** | **Level 1** | Python, Pandas, Scikit-Learn, Matplotlib, Seaborn, Jupyter | Unsupervised machine learning using K-Means Clustering and the Elbow Method to segment and profile shoppers based on earnings and spending behavior. | [Project_2_Customer_Segmentation](./Project_2_Customer_Segmentation) |
+| **03** | **Data Cleaning and Preprocessing** | **Level 1** | Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Jupyter | Preprocessing pipeline on NYC Airbnb dataset including missing value imputation, duplicate removal, outlier percentile-capping, scaling, and category encoding. | [Project_3_Data_Cleaning](./Project_3_Data_Cleaning) |
 
 ---
 
@@ -101,6 +102,23 @@ OIBSIP/
 │   │   ├── annual_income_vs_spending_score.png
 │   │   ├── elbow_method.png
 │   │   └── customer_segments.png
+│   └── README.md                    # Project readme file
+│
+├── Project_3_Data_Cleaning/
+│   ├── Dataset/
+│   │   └── Dataset 1/
+│   │       ├── AB_NYC_2019.csv      # NYC Airbnb 2019 dataset
+│   │       └── New_York_City_.png   # Reference map
+│   ├── Notebook/
+│   │   └── Data_Cleaning_Preprocessing.ipynb # Interactive preprocessing notebook
+│   ├── Report/
+│   │   └── Data_Cleaning_Report.md  # Detailed cleaning business report
+│   ├── Visualizations/              # High-resolution PNG charts
+│   │   ├── missing_values_before.png
+│   │   ├── missing_values_after.png
+│   │   ├── outlier_detection.png
+│   │   ├── feature_distribution.png
+│   │   └── correlation_heatmap.png
 │   └── README.md                    # Project readme file
 │
 └── README.md                        # Root readme (This index hub)
